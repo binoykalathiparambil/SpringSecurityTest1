@@ -1,13 +1,13 @@
-package com.test.security.SpringSecurityTest;
+package com.test.aws.SpringBootSimple;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringSecurityTestApplication {
+public class SpringBootSimpleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringSecurityTestApplication.class, args);
+		SpringApplication.run(SpringBootSimpleApplication.class, args);
 	}
 
 }
