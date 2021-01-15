@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo Starting build..
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Build completed..
+artifacts:
+  files:
+    - target/SpringSecurityTest.jar
+  name: myname-$(date +%Y-%m-%d) 
